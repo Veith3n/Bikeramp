@@ -36,5 +36,15 @@ RSpec.describe Trip, type: :model do
       expect(weekly_stats.first.first).to eq(40.28)
       expect(weekly_stats.first.last).to eq(20)
     end
+
+    it 'returns trips from current month' do
+      first_day_of_current_week.destroy
+      last_day_of_current_week.destroy
+
+      monthly_trips = Trip.monthly
+
+      expect(monthly_trips.first).to eq(last_month_trip)
+      expect(monthly_trips.size).to eq(1)
+    end
   end
 end
