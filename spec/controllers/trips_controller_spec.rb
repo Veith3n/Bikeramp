@@ -14,7 +14,7 @@ RSpec.describe TripsController, type: :controller do
     it 'does not create trip with missing params' do
       params = { starting_point: 'Wiejska 6, Warszawa', end_point: nil }
 
-      expect {post :create, params: { trip: params }}.to_not change {Trip.count}
+      expect { post :create, params: { trip: params } }.to_not change { Trip.count }
     end
   end
 end
