@@ -29,9 +29,9 @@ RSpec.describe TripStats do
       expect(monthly_stats.size).to eq(2)
 
       expect(monthly_stats.first[:day]).to eq(Date.current.beginning_of_month.strftime("%B, #{Date.current.beginning_of_month.day.ordinalize}"))
-      expect(monthly_stats.first[:total_distance]).to eq(23.07)
-      expect(monthly_stats.first[:avg_ride]).to eq(11.535)
-      expect(monthly_stats.first[:avg_price]).to eq(15)
+      expect(monthly_stats.first[:total_distance]).to eq('23.07km')
+      expect(monthly_stats.first[:avg_ride]).to eq('11.54km')
+      expect(monthly_stats.first[:avg_price]).to eq('15PLN')
 
       expect(monthly_stats.last[:day]).to eq(Date.current.end_of_month.strftime("%B, #{Date.current.end_of_month.day.ordinalize}"))
     end
