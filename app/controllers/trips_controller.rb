@@ -8,12 +8,11 @@ class TripsController < ApplicationController
   end
 
   def weekly
-    headers = [['total_distance', 'total_price']]
-    render json: Trip.weekly_stats.map(&headers.first.method(:zip)).map(&:to_h).to_json
+    render json: TripStats.weekly_stats.to_json
   end
 
   def monthly
-      render json: TripStats.monthly_stats.to_json
+    render json: TripStats.monthly_stats.to_json
   end
 
   def trip_params

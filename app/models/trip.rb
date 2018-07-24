@@ -4,7 +4,6 @@ class Trip < ApplicationRecord
   after_validation :calculate_distance, :set_date
 
   scope :weekly, -> { where(date: Date.current.beginning_of_week..Date.current.end_of_week).order(:date) }
-  scope :weekly_stats, -> { Trip.weekly.pluck("sum(distance)", "sum(price)") }
   scope :monthly, -> { where(date: Date.current.beginning_of_month..Date.current.end_of_month).order(:date) }
 
   def start_cords
