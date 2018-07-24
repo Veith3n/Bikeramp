@@ -1,7 +1,6 @@
 require 'rails_helper'
 
 RSpec.describe TripsController, type: :controller do
-
   context '#create' do
     it 'create trip with valid params' do
       params = { start_address: 'Wiejska 6, Warszawa', destination_address: 'Nowy Swiat 6, Warszawa', price: 10.2 }
