@@ -1,24 +1,14 @@
-# README
+#Bikeramp
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+First install all dependencies with:
+> bundle install
 
-Things you may want to cover:
+Then create database and seed it with random data:
+> rake db:setup
 
-* Ruby version
+Now you can start server with:
+> rails s
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+App include two endpoints
+>http://example.com/api/stats/weekly <br>
+>http://example.com/api/stats/monthly
