@@ -1,7 +1,6 @@
 require 'rails_helper'
 
 RSpec.describe Trip, type: :model do
-
   context '#scopes', vcr: 'address_cords' do
     before do
       Trip.skip_callback(:validation, :after, :set_date, raise: false)
@@ -28,13 +27,6 @@ RSpec.describe Trip, type: :model do
 
       expect(weekly_trips.first).to eq(first_day_of_current_week)
       expect(weekly_trips.size).to eq(2)
-    end
-
-    it 'returns correct distance and price for current week' do
-      weekly_stats = Trip.weekly_stats
-
-      expect(weekly_stats.first.first).to eq(40.28)
-      expect(weekly_stats.first.last).to eq(20)
     end
 
     it 'returns trips from current month' do
