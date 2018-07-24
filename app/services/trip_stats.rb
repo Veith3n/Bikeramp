@@ -13,13 +13,17 @@ module TripStats
     Trip.monthly.group_by(&:date).map do |result|
       { day: result[0].strftime("%B, #{result[0].day.ordinalize}"),
         total_distance: "#{serialize_number(result[1].sum(&:distance))}km",
-        avg_ride: "#{serialize_number(calculate_average(result[1].sum(&:distance), result[1].size))}km",
-        avg_price: "#{serialize_number(calculate_average(result[1].sum(&:price), result[1].size))}PLN" }
+        avg_ride: "#{serialize_number(average_distance(result))}km",
+        avg_price: "#{serialize_number(average_price(result))}PLN" }
     end
   end
 
-  def calculate_average(sum, count)
-    sum / count
+  def average_distance(trip)
+    trip[1].sum(&:distance) / trip[1].size
+  end
+
+  def average_price(trip)
+    trip[1].sum(&:price) / trip[1].size
   end
 
   def serialize_number(number)
