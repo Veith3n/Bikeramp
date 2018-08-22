@@ -44,6 +44,7 @@ group :development, :test do
   gem 'vcr'
   gem 'webmock'
   gem 'factory_bot_rails'
+  gem 'vcr'
 end
 
 group :development do
