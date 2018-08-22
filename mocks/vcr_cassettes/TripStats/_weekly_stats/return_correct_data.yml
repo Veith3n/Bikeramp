@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=Miodowa%205&language=en&sensor=false
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=Miodowa%2013,%20Warszawa&language=en&sensor=false
     body:
       encoding: US-ASCII
       string: ''
@@ -21,99 +21,15 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 24 Jul 2018 09:30:42 GMT
+      - Wed, 22 Aug 2018 08:50:04 GMT
       Expires:
-      - Wed, 25 Jul 2018 09:30:42 GMT
-      Cache-Control:
-      - public, max-age=86400
+      - Thu, 23 Aug 2018 08:50:04 GMT
       Access-Control-Allow-Origin:
       - "*"
       Server:
       - mafe
       Content-Length:
-      - '570'
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        ewogICAicmVzdWx0cyIgOiBbCiAgICAgIHsKICAgICAgICAgImFkZHJlc3NfY29tcG9uZW50cyIgOiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiNSIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICI1IiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgInN0cmVldF9udW1iZXIiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJNaW9kb3dhIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIk1pb2Rvd2EiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAicm91dGUiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICLFmnLDs2RtaWXFm2NpZSIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICLFmnLDs2RtaWXFm2NpZSIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJwb2xpdGljYWwiLCAic3VibG9jYWxpdHkiLCAic3VibG9jYWxpdHlfbGV2ZWxfMSIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIldhcnN6YXdhIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIldhcnN6YXdhIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgImxvY2FsaXR5IiwgInBvbGl0aWNhbCIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIldhcnN6YXdhIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIldhcnN6YXdhIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgImFkbWluaXN0cmF0aXZlX2FyZWFfbGV2ZWxfMiIsICJwb2xpdGljYWwiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJtYXpvd2llY2tpZSIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJtYXpvd2llY2tpZSIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJhZG1pbmlzdHJhdGl2ZV9hcmVhX2xldmVsXzEiLCAicG9saXRpY2FsIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiUG9sYW5kIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIlBMIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgImNvdW50cnkiLCAicG9saXRpY2FsIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiMDAtMDAxIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIjAwLTAwMSIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJwb3N0YWxfY29kZSIgXQogICAgICAgICAgICB9CiAgICAgICAgIF0sCiAgICAgICAgICJmb3JtYXR0ZWRfYWRkcmVzcyIgOiAiTWlvZG93YSA1LCAwMC0wMDEgV2Fyc3phd2EsIFBvbGFuZCIsCiAgICAgICAgICJnZW9tZXRyeSIgOiB7CiAgICAgICAgICAgICJsb2NhdGlvbiIgOiB7CiAgICAgICAgICAgICAgICJsYXQiIDogNTIuMjQ2MzAzMiwKICAgICAgICAgICAgICAgImxuZyIgOiAyMS4wMTE3NzQ3CiAgICAgICAgICAgIH0sCiAgICAgICAgICAgICJsb2NhdGlvbl90eXBlIiA6ICJST09GVE9QIiwKICAgICAgICAgICAgInZpZXdwb3J0IiA6IHsKICAgICAgICAgICAgICAgIm5vcnRoZWFzdCIgOiB7CiAgICAgICAgICAgICAgICAgICJsYXQiIDogNTIuMjQ3NjUyMTgwMjkxNSwKICAgICAgICAgICAgICAgICAgImxuZyIgOiAyMS4wMTMxMjM2ODAyOTE1CiAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICJzb3V0aHdlc3QiIDogewogICAgICAgICAgICAgICAgICAibGF0IiA6IDUyLjI0NDk1NDIxOTcwODUsCiAgICAgICAgICAgICAgICAgICJsbmciIDogMjEuMDEwNDI1NzE5NzA4NQogICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgfSwKICAgICAgICAgInBsYWNlX2lkIiA6ICJDaElKTWZKRjFtWE1Ia2NSUmM1N3JheUhxbVkiLAogICAgICAgICAicGx1c19jb2RlIiA6IHsKICAgICAgICAgICAgImNvbXBvdW5kX2NvZGUiIDogIjYyVzYrR1AgV2Fyc2F3LCBQb2xhbmQiLAogICAgICAgICAgICAiZ2xvYmFsX2NvZGUiIDogIjlHNDM2Mlc2K0dQIgogICAgICAgICB9LAogICAgICAgICAidHlwZXMiIDogWyAic3RyZWV0X2FkZHJlc3MiIF0KICAgICAgfQogICBdLAogICAic3RhdHVzIiA6ICJPSyIKfQo=
-    http_version: 
-  recorded_at: Tue, 24 Jul 2018 09:30:43 GMT
-- request:
-    method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=Nowogrodzka%2040&language=en&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Tue, 24 Jul 2018 09:30:43 GMT
-      Expires:
-      - Wed, 25 Jul 2018 09:30:43 GMT
-      Cache-Control:
-      - public, max-age=86400
-      Access-Control-Allow-Origin:
-      - "*"
-      Server:
-      - mafe
-      Content-Length:
-      - '577'
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        ewogICAicmVzdWx0cyIgOiBbCiAgICAgIHsKICAgICAgICAgImFkZHJlc3NfY29tcG9uZW50cyIgOiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiNDAiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiNDAiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAic3RyZWV0X251bWJlciIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIk5vd29ncm9kemthIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIk5vd29ncm9kemthIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgInJvdXRlIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAixZpyw7NkbWllxZtjaWUiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAixZpyw7NkbWllxZtjaWUiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAicG9saXRpY2FsIiwgInN1YmxvY2FsaXR5IiwgInN1YmxvY2FsaXR5X2xldmVsXzEiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJXYXJzemF3YSIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJXYXJzemF3YSIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJsb2NhbGl0eSIsICJwb2xpdGljYWwiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJXYXJzemF3YSIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJXYXJzemF3YSIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJhZG1pbmlzdHJhdGl2ZV9hcmVhX2xldmVsXzIiLCAicG9saXRpY2FsIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAibWF6b3dpZWNraWUiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAibWF6b3dpZWNraWUiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAiYWRtaW5pc3RyYXRpdmVfYXJlYV9sZXZlbF8xIiwgInBvbGl0aWNhbCIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIlBvbGFuZCIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJQTCIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJjb3VudHJ5IiwgInBvbGl0aWNhbCIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIjAwLTAwMSIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICIwMC0wMDEiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAicG9zdGFsX2NvZGUiIF0KICAgICAgICAgICAgfQogICAgICAgICBdLAogICAgICAgICAiZm9ybWF0dGVkX2FkZHJlc3MiIDogIk5vd29ncm9kemthIDQwLCAwMC0wMDEgV2Fyc3phd2EsIFBvbGFuZCIsCiAgICAgICAgICJnZW9tZXRyeSIgOiB7CiAgICAgICAgICAgICJsb2NhdGlvbiIgOiB7CiAgICAgICAgICAgICAgICJsYXQiIDogNTIuMjI4NTQ3NCwKICAgICAgICAgICAgICAgImxuZyIgOiAyMS4wMTAyODY0CiAgICAgICAgICAgIH0sCiAgICAgICAgICAgICJsb2NhdGlvbl90eXBlIiA6ICJST09GVE9QIiwKICAgICAgICAgICAgInZpZXdwb3J0IiA6IHsKICAgICAgICAgICAgICAgIm5vcnRoZWFzdCIgOiB7CiAgICAgICAgICAgICAgICAgICJsYXQiIDogNTIuMjI5ODk2MzgwMjkxNSwKICAgICAgICAgICAgICAgICAgImxuZyIgOiAyMS4wMTE2MzUzODAyOTE1CiAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICJzb3V0aHdlc3QiIDogewogICAgICAgICAgICAgICAgICAibGF0IiA6IDUyLjIyNzE5ODQxOTcwODUsCiAgICAgICAgICAgICAgICAgICJsbmciIDogMjEuMDA4OTM3NDE5NzA4NQogICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgfSwKICAgICAgICAgInBsYWNlX2lkIiA6ICJDaElKTlhBcThmTE1Ia2NSTFljWC0tQUhjdXciLAogICAgICAgICAicGx1c19jb2RlIiA6IHsKICAgICAgICAgICAgImNvbXBvdW5kX2NvZGUiIDogIjYySDYrQzQgV2Fyc2F3LCBQb2xhbmQiLAogICAgICAgICAgICAiZ2xvYmFsX2NvZGUiIDogIjlHNDM2Mkg2K0M0IgogICAgICAgICB9LAogICAgICAgICAidHlwZXMiIDogWyAic3RyZWV0X2FkZHJlc3MiIF0KICAgICAgfQogICBdLAogICAic3RhdHVzIiA6ICJPSyIKfQo=
-    http_version: 
-  recorded_at: Tue, 24 Jul 2018 09:30:43 GMT
-- request:
-    method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=Pulawska%205&language=en&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Tue, 24 Jul 2018 09:20:11 GMT
-      Expires:
-      - Wed, 25 Jul 2018 09:20:11 GMT
-      Access-Control-Allow-Origin:
-      - "*"
-      Server:
-      - mafe
-      Content-Length:
-      - '540'
+      - '572'
       X-Xss-Protection:
       - 1; mode=block
       X-Frame-Options:
@@ -121,16 +37,16 @@ http_interactions:
       Cache-Control:
       - public, max-age=86400
       Age:
-      - '632'
+      - '21'
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        ewogICAicmVzdWx0cyIgOiBbCiAgICAgIHsKICAgICAgICAgImFkZHJlc3NfY29tcG9uZW50cyIgOiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiNSIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICI1IiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgInN0cmVldF9udW1iZXIiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJQdcWCYXdza2EiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiUHXFgmF3c2thIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgInJvdXRlIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiUGlhc2Vjem5vIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIlBpYXNlY3pubyIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJsb2NhbGl0eSIsICJwb2xpdGljYWwiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJwaWFzZWN6ecWEc2tpIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogInBpYXNlY3p5xYRza2kiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAiYWRtaW5pc3RyYXRpdmVfYXJlYV9sZXZlbF8yIiwgInBvbGl0aWNhbCIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIm1hem93aWVja2llIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIm1hem93aWVja2llIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgImFkbWluaXN0cmF0aXZlX2FyZWFfbGV2ZWxfMSIsICJwb2xpdGljYWwiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJQb2xhbmQiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiUEwiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAiY291bnRyeSIsICJwb2xpdGljYWwiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICIwNS01MDAiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiMDUtNTAwIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgInBvc3RhbF9jb2RlIiBdCiAgICAgICAgICAgIH0KICAgICAgICAgXSwKICAgICAgICAgImZvcm1hdHRlZF9hZGRyZXNzIiA6ICJQdcWCYXdza2EgNSwgMDUtNTAwIFBpYXNlY3pubywgUG9sYW5kIiwKICAgICAgICAgImdlb21ldHJ5IiA6IHsKICAgICAgICAgICAgImJvdW5kcyIgOiB7CiAgICAgICAgICAgICAgICJub3J0aGVhc3QiIDogewogICAgICAgICAgICAgICAgICAibGF0IiA6IDUyLjA3NTk3MzMsCiAgICAgICAgICAgICAgICAgICJsbmciIDogMjEuMDI2NTgwNwogICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAic291dGh3ZXN0IiA6IHsKICAgICAgICAgICAgICAgICAgImxhdCIgOiA1Mi4wNzU3OTg2LAogICAgICAgICAgICAgICAgICAibG5nIiA6IDIxLjAyNjMxNTIKICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9LAogICAgICAgICAgICAibG9jYXRpb24iIDogewogICAgICAgICAgICAgICAibGF0IiA6IDUyLjA3NTg3MTQsCiAgICAgICAgICAgICAgICJsbmciIDogMjEuMDI2NDUxNwogICAgICAgICAgICB9LAogICAgICAgICAgICAibG9jYXRpb25fdHlwZSIgOiAiUk9PRlRPUCIsCiAgICAgICAgICAgICJ2aWV3cG9ydCIgOiB7CiAgICAgICAgICAgICAgICJub3J0aGVhc3QiIDogewogICAgICAgICAgICAgICAgICAibGF0IiA6IDUyLjA3NzIzNDkzMDI5MTUsCiAgICAgICAgICAgICAgICAgICJsbmciIDogMjEuMDI3Nzk2OTMwMjkxNQogICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAic291dGh3ZXN0IiA6IHsKICAgICAgICAgICAgICAgICAgImxhdCIgOiA1Mi4wNzQ1MzY5Njk3MDg1LAogICAgICAgICAgICAgICAgICAibG5nIiA6IDIxLjAyNTA5ODk2OTcwODUKICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgIH0sCiAgICAgICAgICJwbGFjZV9pZCIgOiAiQ2hJSnB4Y0Zqa0F1R1VjUmo2UTU5dFZLNGhRIiwKICAgICAgICAgInR5cGVzIiA6IFsgInByZW1pc2UiIF0KICAgICAgfQogICBdLAogICAic3RhdHVzIiA6ICJPSyIKfQo=
+        ewogICAicmVzdWx0cyIgOiBbCiAgICAgIHsKICAgICAgICAgImFkZHJlc3NfY29tcG9uZW50cyIgOiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiMTMiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiMTMiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAic3RyZWV0X251bWJlciIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIk1pb2Rvd2EiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiTWlvZG93YSIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJyb3V0ZSIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIsWacsOzZG1pZcWbY2llIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIsWacsOzZG1pZcWbY2llIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgInBvbGl0aWNhbCIsICJzdWJsb2NhbGl0eSIsICJzdWJsb2NhbGl0eV9sZXZlbF8xIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiV2Fyc3phd2EiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiV2Fyc3phd2EiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAibG9jYWxpdHkiLCAicG9saXRpY2FsIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiV2Fyc3phd2EiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiV2Fyc3phd2EiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAiYWRtaW5pc3RyYXRpdmVfYXJlYV9sZXZlbF8yIiwgInBvbGl0aWNhbCIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIm1hem93aWVja2llIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIm1hem93aWVja2llIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgImFkbWluaXN0cmF0aXZlX2FyZWFfbGV2ZWxfMSIsICJwb2xpdGljYWwiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJQb2xhbmQiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiUEwiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAiY291bnRyeSIsICJwb2xpdGljYWwiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICIwMC0wMDEiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiMDAtMDAxIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgInBvc3RhbF9jb2RlIiBdCiAgICAgICAgICAgIH0KICAgICAgICAgXSwKICAgICAgICAgImZvcm1hdHRlZF9hZGRyZXNzIiA6ICJNaW9kb3dhIDEzLCAwMC0wMDEgV2Fyc3phd2EsIFBvbGFuZCIsCiAgICAgICAgICJnZW9tZXRyeSIgOiB7CiAgICAgICAgICAgICJsb2NhdGlvbiIgOiB7CiAgICAgICAgICAgICAgICJsYXQiIDogNTIuMjQ2ODgzOSwKICAgICAgICAgICAgICAgImxuZyIgOiAyMS4wMDk2ODYKICAgICAgICAgICAgfSwKICAgICAgICAgICAgImxvY2F0aW9uX3R5cGUiIDogIlJPT0ZUT1AiLAogICAgICAgICAgICAidmlld3BvcnQiIDogewogICAgICAgICAgICAgICAibm9ydGhlYXN0IiA6IHsKICAgICAgICAgICAgICAgICAgImxhdCIgOiA1Mi4yNDgyMzI4ODAyOTE1LAogICAgICAgICAgICAgICAgICAibG5nIiA6IDIxLjAxMTAzNDk4MDI5MTUKICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgInNvdXRod2VzdCIgOiB7CiAgICAgICAgICAgICAgICAgICJsYXQiIDogNTIuMjQ1NTM0OTE5NzA4NSwKICAgICAgICAgICAgICAgICAgImxuZyIgOiAyMS4wMDgzMzcwMTk3MDg1CiAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICB9LAogICAgICAgICAicGxhY2VfaWQiIDogIkNoSUp3Zk5XdDJYTUhrY1JNZ2xCbjhmb0IyQSIsCiAgICAgICAgICJwbHVzX2NvZGUiIDogewogICAgICAgICAgICAiY29tcG91bmRfY29kZSIgOiAiNjJXNStRViBXYXJzYXcsIFBvbGFuZCIsCiAgICAgICAgICAgICJnbG9iYWxfY29kZSIgOiAiOUc0MzYyVzUrUVYiCiAgICAgICAgIH0sCiAgICAgICAgICJ0eXBlcyIgOiBbICJzdHJlZXRfYWRkcmVzcyIgXQogICAgICB9CiAgIF0sCiAgICJzdGF0dXMiIDogIk9LIgp9Cg==
     http_version: 
-  recorded_at: Tue, 24 Jul 2018 09:30:43 GMT
+  recorded_at: Wed, 22 Aug 2018 08:50:25 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=Lazurowa%2040&language=en&sensor=false
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=Nowogordzka%2013,%20Warszawa&language=en&sensor=false
     body:
       encoding: US-ASCII
       string: ''
@@ -149,15 +65,15 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 24 Jul 2018 09:20:12 GMT
+      - Wed, 22 Aug 2018 08:50:05 GMT
       Expires:
-      - Wed, 25 Jul 2018 09:20:12 GMT
+      - Thu, 23 Aug 2018 08:50:05 GMT
       Access-Control-Allow-Origin:
       - "*"
       Server:
       - mafe
       Content-Length:
-      - '516'
+      - '602'
       X-Xss-Protection:
       - 1; mode=block
       X-Frame-Options:
@@ -165,84 +81,16 @@ http_interactions:
       Cache-Control:
       - public, max-age=86400
       Age:
-      - '631'
+      - '20'
     body:
       encoding: ASCII-8BIT
-      string: |
-        {
-           "results" : [
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "40",
-                       "short_name" : "40",
-                       "types" : [ "street_number" ]
-                    },
-                    {
-                       "long_name" : "Lazurowa",
-                       "short_name" : "Lazurowa",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Bemowo",
-                       "short_name" : "Bemowo",
-                       "types" : [ "political", "sublocality", "sublocality_level_1" ]
-                    },
-                    {
-                       "long_name" : "Warszawa",
-                       "short_name" : "Warszawa",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "Warszawa",
-                       "short_name" : "Warszawa",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "mazowieckie",
-                       "short_name" : "mazowieckie",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "Poland",
-                       "short_name" : "PL",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "01-315",
-                       "short_name" : "01-315",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "Lazurowa 40, 01-315 Warszawa, Poland",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 52.2389167,
-                       "lng" : 20.8977101
-                    },
-                    "location_type" : "ROOFTOP",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 52.2402656802915,
-                          "lng" : 20.8990590802915
-                       },
-                       "southwest" : {
-                          "lat" : 52.2375677197085,
-                          "lng" : 20.8963611197085
-                       }
-                    }
-                 },
-                 "place_id" : "ChIJw7i_BufKHkcRopWcPnyZSBA",
-                 "types" : [ "premise" ]
-              }
-           ],
-           "status" : "OK"
-        }
+      string: !binary |-
+        ewogICAicmVzdWx0cyIgOiBbCiAgICAgIHsKICAgICAgICAgImFkZHJlc3NfY29tcG9uZW50cyIgOiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiMTMiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiMTMiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAic3RyZWV0X251bWJlciIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIk5vd29ncm9kemthIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIk5vd29ncm9kemthIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgInJvdXRlIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAixZpyw7NkbWllxZtjaWUiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAixZpyw7NkbWllxZtjaWUiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAicG9saXRpY2FsIiwgInN1YmxvY2FsaXR5IiwgInN1YmxvY2FsaXR5X2xldmVsXzEiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJXYXJzemF3YSIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJXYXJzemF3YSIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJsb2NhbGl0eSIsICJwb2xpdGljYWwiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJXYXJzemF3YSIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJXYXJzemF3YSIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJhZG1pbmlzdHJhdGl2ZV9hcmVhX2xldmVsXzIiLCAicG9saXRpY2FsIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAibWF6b3dpZWNraWUiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAibWF6b3dpZWNraWUiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAiYWRtaW5pc3RyYXRpdmVfYXJlYV9sZXZlbF8xIiwgInBvbGl0aWNhbCIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIlBvbGFuZCIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJQTCIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJjb3VudHJ5IiwgInBvbGl0aWNhbCIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIjAyLTAwNiIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICIwMi0wMDYiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAicG9zdGFsX2NvZGUiIF0KICAgICAgICAgICAgfQogICAgICAgICBdLAogICAgICAgICAiZm9ybWF0dGVkX2FkZHJlc3MiIDogIk5vd29ncm9kemthIDEzLCAwMi0wMDYgV2Fyc3phd2EsIFBvbGFuZCIsCiAgICAgICAgICJnZW9tZXRyeSIgOiB7CiAgICAgICAgICAgICJsb2NhdGlvbiIgOiB7CiAgICAgICAgICAgICAgICJsYXQiIDogNTIuMjI5NzY1OCwKICAgICAgICAgICAgICAgImxuZyIgOiAyMS4wMTY4OTIxCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgICJsb2NhdGlvbl90eXBlIiA6ICJSQU5HRV9JTlRFUlBPTEFURUQiLAogICAgICAgICAgICAidmlld3BvcnQiIDogewogICAgICAgICAgICAgICAibm9ydGhlYXN0IiA6IHsKICAgICAgICAgICAgICAgICAgImxhdCIgOiA1Mi4yMzExMTQ3ODAyOTE1LAogICAgICAgICAgICAgICAgICAibG5nIiA6IDIxLjAxODI0MTA4MDI5MTUKICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgInNvdXRod2VzdCIgOiB7CiAgICAgICAgICAgICAgICAgICJsYXQiIDogNTIuMjI4NDE2ODE5NzA4NSwKICAgICAgICAgICAgICAgICAgImxuZyIgOiAyMS4wMTU1NDMxMTk3MDg1CiAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICB9LAogICAgICAgICAicGxhY2VfaWQiIDogIkVpZE9iM2R2WjNKdlpIcHJZU0F4TXl3Z01ESXRNREEySUZkaGNuTjZZWGRoTENCUWIyeHphMkVpR2hJWUNoUUtFZ21IeDVoYzhjd2VSeEc3STVHRWhGWFZOQkFOIiwKICAgICAgICAgInR5cGVzIiA6IFsgInN0cmVldF9hZGRyZXNzIiBdCiAgICAgIH0KICAgXSwKICAgInN0YXR1cyIgOiAiT0siCn0K
     http_version: 
-  recorded_at: Tue, 24 Jul 2018 09:30:43 GMT
+  recorded_at: Wed, 22 Aug 2018 08:50:25 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=Pulawska%2015&language=en&sensor=false
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=Miodowa%2014,%20Warszawa&language=en&sensor=false
     body:
       encoding: US-ASCII
       string: ''
@@ -261,9 +109,97 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Mon, 23 Jul 2018 14:40:18 GMT
+      - Wed, 22 Aug 2018 08:50:05 GMT
       Expires:
-      - Tue, 24 Jul 2018 14:40:18 GMT
+      - Thu, 23 Aug 2018 08:50:05 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - mafe
+      Content-Length:
+      - '572'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cache-Control:
+      - public, max-age=86400
+      Age:
+      - '20'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        ewogICAicmVzdWx0cyIgOiBbCiAgICAgIHsKICAgICAgICAgImFkZHJlc3NfY29tcG9uZW50cyIgOiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiMTQiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiMTQiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAic3RyZWV0X251bWJlciIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIk1pb2Rvd2EiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiTWlvZG93YSIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJyb3V0ZSIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIsWacsOzZG1pZcWbY2llIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIsWacsOzZG1pZcWbY2llIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgInBvbGl0aWNhbCIsICJzdWJsb2NhbGl0eSIsICJzdWJsb2NhbGl0eV9sZXZlbF8xIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiV2Fyc3phd2EiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiV2Fyc3phd2EiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAibG9jYWxpdHkiLCAicG9saXRpY2FsIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiV2Fyc3phd2EiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiV2Fyc3phd2EiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAiYWRtaW5pc3RyYXRpdmVfYXJlYV9sZXZlbF8yIiwgInBvbGl0aWNhbCIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIm1hem93aWVja2llIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIm1hem93aWVja2llIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgImFkbWluaXN0cmF0aXZlX2FyZWFfbGV2ZWxfMSIsICJwb2xpdGljYWwiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJQb2xhbmQiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiUEwiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAiY291bnRyeSIsICJwb2xpdGljYWwiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICIwMC0wMDEiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiMDAtMDAxIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgInBvc3RhbF9jb2RlIiBdCiAgICAgICAgICAgIH0KICAgICAgICAgXSwKICAgICAgICAgImZvcm1hdHRlZF9hZGRyZXNzIiA6ICJNaW9kb3dhIDE0LCAwMC0wMDEgV2Fyc3phd2EsIFBvbGFuZCIsCiAgICAgICAgICJnZW9tZXRyeSIgOiB7CiAgICAgICAgICAgICJsb2NhdGlvbiIgOiB7CiAgICAgICAgICAgICAgICJsYXQiIDogNTIuMjQ3NDY2MywKICAgICAgICAgICAgICAgImxuZyIgOiAyMS4wMDk0NTMyCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgICJsb2NhdGlvbl90eXBlIiA6ICJST09GVE9QIiwKICAgICAgICAgICAgInZpZXdwb3J0IiA6IHsKICAgICAgICAgICAgICAgIm5vcnRoZWFzdCIgOiB7CiAgICAgICAgICAgICAgICAgICJsYXQiIDogNTIuMjQ4ODE1MjgwMjkxNSwKICAgICAgICAgICAgICAgICAgImxuZyIgOiAyMS4wMTA4MDIxODAyOTE1CiAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICJzb3V0aHdlc3QiIDogewogICAgICAgICAgICAgICAgICAibGF0IiA6IDUyLjI0NjExNzMxOTcwODUsCiAgICAgICAgICAgICAgICAgICJsbmciIDogMjEuMDA4MTA0MjE5NzA4NQogICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgfSwKICAgICAgICAgInBsYWNlX2lkIiA6ICJDaElKRDliOW9tWE1Ia2NSRGpFT3I4a2ZXeFkiLAogICAgICAgICAicGx1c19jb2RlIiA6IHsKICAgICAgICAgICAgImNvbXBvdW5kX2NvZGUiIDogIjYyVzUrWFEgV2Fyc2F3LCBQb2xhbmQiLAogICAgICAgICAgICAiZ2xvYmFsX2NvZGUiIDogIjlHNDM2Mlc1K1hRIgogICAgICAgICB9LAogICAgICAgICAidHlwZXMiIDogWyAic3RyZWV0X2FkZHJlc3MiIF0KICAgICAgfQogICBdLAogICAic3RhdHVzIiA6ICJPSyIKfQo=
+    http_version: 
+  recorded_at: Wed, 22 Aug 2018 08:50:25 GMT
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=Nowogordzka%2014,%20Warszawa&language=en&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 22 Aug 2018 08:50:06 GMT
+      Expires:
+      - Thu, 23 Aug 2018 08:50:06 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - mafe
+      Content-Length:
+      - '574'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cache-Control:
+      - public, max-age=86400
+      Age:
+      - '19'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        ewogICAicmVzdWx0cyIgOiBbCiAgICAgIHsKICAgICAgICAgImFkZHJlc3NfY29tcG9uZW50cyIgOiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiMTQiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiMTQiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAic3RyZWV0X251bWJlciIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIk5vd29ncm9kemthIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIk5vd29ncm9kemthIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgInJvdXRlIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAixZpyw7NkbWllxZtjaWUiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAixZpyw7NkbWllxZtjaWUiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAicG9saXRpY2FsIiwgInN1YmxvY2FsaXR5IiwgInN1YmxvY2FsaXR5X2xldmVsXzEiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJXYXJzemF3YSIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJXYXJzemF3YSIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJsb2NhbGl0eSIsICJwb2xpdGljYWwiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJXYXJzemF3YSIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJXYXJzemF3YSIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJhZG1pbmlzdHJhdGl2ZV9hcmVhX2xldmVsXzIiLCAicG9saXRpY2FsIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAibWF6b3dpZWNraWUiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAibWF6b3dpZWNraWUiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAiYWRtaW5pc3RyYXRpdmVfYXJlYV9sZXZlbF8xIiwgInBvbGl0aWNhbCIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIlBvbGFuZCIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJQTCIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJjb3VudHJ5IiwgInBvbGl0aWNhbCIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIjAwLTAwMSIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICIwMC0wMDEiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAicG9zdGFsX2NvZGUiIF0KICAgICAgICAgICAgfQogICAgICAgICBdLAogICAgICAgICAiZm9ybWF0dGVkX2FkZHJlc3MiIDogIk5vd29ncm9kemthIDE0LCAwMC0wMDEgV2Fyc3phd2EsIFBvbGFuZCIsCiAgICAgICAgICJnZW9tZXRyeSIgOiB7CiAgICAgICAgICAgICJsb2NhdGlvbiIgOiB7CiAgICAgICAgICAgICAgICJsYXQiIDogNTIuMjI5NjIyLAogICAgICAgICAgICAgICAibG5nIiA6IDIxLjAxNTYwNQogICAgICAgICAgICB9LAogICAgICAgICAgICAibG9jYXRpb25fdHlwZSIgOiAiUk9PRlRPUCIsCiAgICAgICAgICAgICJ2aWV3cG9ydCIgOiB7CiAgICAgICAgICAgICAgICJub3J0aGVhc3QiIDogewogICAgICAgICAgICAgICAgICAibGF0IiA6IDUyLjIzMDk3MDk4MDI5MTUsCiAgICAgICAgICAgICAgICAgICJsbmciIDogMjEuMDE2OTUzOTgwMjkxNQogICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAic291dGh3ZXN0IiA6IHsKICAgICAgICAgICAgICAgICAgImxhdCIgOiA1Mi4yMjgyNzMwMTk3MDg1LAogICAgICAgICAgICAgICAgICAibG5nIiA6IDIxLjAxNDI1NjAxOTcwODUKICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgIH0sCiAgICAgICAgICJwbGFjZV9pZCIgOiAiQ2hJSjNaOV8zdlBNSGtjUmZtT1dDcnIzR05BIiwKICAgICAgICAgInBsdXNfY29kZSIgOiB7CiAgICAgICAgICAgICJjb21wb3VuZF9jb2RlIiA6ICI2Mkg4K1I2IFdhcnNhdywgUG9sYW5kIiwKICAgICAgICAgICAgImdsb2JhbF9jb2RlIiA6ICI5RzQzNjJIOCtSNiIKICAgICAgICAgfSwKICAgICAgICAgInR5cGVzIiA6IFsgInN0cmVldF9hZGRyZXNzIiBdCiAgICAgIH0KICAgXSwKICAgInN0YXR1cyIgOiAiT0siCn0K
+    http_version: 
+  recorded_at: Wed, 22 Aug 2018 08:50:25 GMT
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=Miodowa%2015,%20Warszawa&language=en&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 22 Aug 2018 08:50:06 GMT
+      Expires:
+      - Thu, 23 Aug 2018 08:50:06 GMT
       Access-Control-Allow-Origin:
       - "*"
       Server:
@@ -277,16 +213,16 @@ http_interactions:
       Cache-Control:
       - public, max-age=86400
       Age:
-      - '67825'
+      - '19'
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        ewogICAicmVzdWx0cyIgOiBbCiAgICAgIHsKICAgICAgICAgImFkZHJlc3NfY29tcG9uZW50cyIgOiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiMTUiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiMTUiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAic3RyZWV0X251bWJlciIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIlB1xYJhd3NrYSIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJQdcWCYXdza2EiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAicm91dGUiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJNb2tvdMOzdyIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJNb2tvdMOzdyIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJwb2xpdGljYWwiLCAic3VibG9jYWxpdHkiLCAic3VibG9jYWxpdHlfbGV2ZWxfMSIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIldhcnN6YXdhIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIldhcnN6YXdhIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgImxvY2FsaXR5IiwgInBvbGl0aWNhbCIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIldhcnN6YXdhIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIldhcnN6YXdhIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgImFkbWluaXN0cmF0aXZlX2FyZWFfbGV2ZWxfMiIsICJwb2xpdGljYWwiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJtYXpvd2llY2tpZSIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJtYXpvd2llY2tpZSIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJhZG1pbmlzdHJhdGl2ZV9hcmVhX2xldmVsXzEiLCAicG9saXRpY2FsIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiUG9sYW5kIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIlBMIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgImNvdW50cnkiLCAicG9saXRpY2FsIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiMDAtMDAxIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIjAwLTAwMSIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJwb3N0YWxfY29kZSIgXQogICAgICAgICAgICB9CiAgICAgICAgIF0sCiAgICAgICAgICJmb3JtYXR0ZWRfYWRkcmVzcyIgOiAiUHXFgmF3c2thIDE1LCAwMC0wMDEgV2Fyc3phd2EsIFBvbGFuZCIsCiAgICAgICAgICJnZW9tZXRyeSIgOiB7CiAgICAgICAgICAgICJsb2NhdGlvbiIgOiB7CiAgICAgICAgICAgICAgICJsYXQiIDogNTIuMjEwNTg1NTk5OTk5OTksCiAgICAgICAgICAgICAgICJsbmciIDogMjEuMDIyMjg1MQogICAgICAgICAgICB9LAogICAgICAgICAgICAibG9jYXRpb25fdHlwZSIgOiAiUk9PRlRPUCIsCiAgICAgICAgICAgICJ2aWV3cG9ydCIgOiB7CiAgICAgICAgICAgICAgICJub3J0aGVhc3QiIDogewogICAgICAgICAgICAgICAgICAibGF0IiA6IDUyLjIxMTkzNDU4MDI5MTQ5LAogICAgICAgICAgICAgICAgICAibG5nIiA6IDIxLjAyMzYzNDA4MDI5MTUKICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgInNvdXRod2VzdCIgOiB7CiAgICAgICAgICAgICAgICAgICJsYXQiIDogNTIuMjA5MjM2NjE5NzA4NSwKICAgICAgICAgICAgICAgICAgImxuZyIgOiAyMS4wMjA5MzYxMTk3MDg0OQogICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgfSwKICAgICAgICAgInBsYWNlX2lkIiA6ICJDaElKdFU3cVY5N01Ia2NSU1d2aTdleVI2eDgiLAogICAgICAgICAicGx1c19jb2RlIiA6IHsKICAgICAgICAgICAgImNvbXBvdW5kX2NvZGUiIDogIjYyNkMrNlcgV2Fyc2F3LCBQb2xhbmQiLAogICAgICAgICAgICAiZ2xvYmFsX2NvZGUiIDogIjlHNDM2MjZDKzZXIgogICAgICAgICB9LAogICAgICAgICAidHlwZXMiIDogWyAic3RyZWV0X2FkZHJlc3MiIF0KICAgICAgfQogICBdLAogICAic3RhdHVzIiA6ICJPSyIKfQo=
+        ewogICAicmVzdWx0cyIgOiBbCiAgICAgIHsKICAgICAgICAgImFkZHJlc3NfY29tcG9uZW50cyIgOiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiMTUiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiMTUiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAic3RyZWV0X251bWJlciIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIk1pb2Rvd2EiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiTWlvZG93YSIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJyb3V0ZSIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIsWacsOzZG1pZcWbY2llIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIsWacsOzZG1pZcWbY2llIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgInBvbGl0aWNhbCIsICJzdWJsb2NhbGl0eSIsICJzdWJsb2NhbGl0eV9sZXZlbF8xIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiV2Fyc3phd2EiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiV2Fyc3phd2EiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAibG9jYWxpdHkiLCAicG9saXRpY2FsIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiV2Fyc3phd2EiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiV2Fyc3phd2EiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAiYWRtaW5pc3RyYXRpdmVfYXJlYV9sZXZlbF8yIiwgInBvbGl0aWNhbCIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIm1hem93aWVja2llIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIm1hem93aWVja2llIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgImFkbWluaXN0cmF0aXZlX2FyZWFfbGV2ZWxfMSIsICJwb2xpdGljYWwiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJQb2xhbmQiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiUEwiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAiY291bnRyeSIsICJwb2xpdGljYWwiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICIwMC0wMDEiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiMDAtMDAxIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgInBvc3RhbF9jb2RlIiBdCiAgICAgICAgICAgIH0KICAgICAgICAgXSwKICAgICAgICAgImZvcm1hdHRlZF9hZGRyZXNzIiA6ICJNaW9kb3dhIDE1LCAwMC0wMDEgV2Fyc3phd2EsIFBvbGFuZCIsCiAgICAgICAgICJnZW9tZXRyeSIgOiB7CiAgICAgICAgICAgICJsb2NhdGlvbiIgOiB7CiAgICAgICAgICAgICAgICJsYXQiIDogNTIuMjQ2OTM1OSwKICAgICAgICAgICAgICAgImxuZyIgOiAyMS4wMDgxNjA1CiAgICAgICAgICAgIH0sCiAgICAgICAgICAgICJsb2NhdGlvbl90eXBlIiA6ICJST09GVE9QIiwKICAgICAgICAgICAgInZpZXdwb3J0IiA6IHsKICAgICAgICAgICAgICAgIm5vcnRoZWFzdCIgOiB7CiAgICAgICAgICAgICAgICAgICJsYXQiIDogNTIuMjQ4Mjg0ODgwMjkxNSwKICAgICAgICAgICAgICAgICAgImxuZyIgOiAyMS4wMDk1MDk0ODAyOTE1CiAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICJzb3V0aHdlc3QiIDogewogICAgICAgICAgICAgICAgICAibGF0IiA6IDUyLjI0NTU4NjkxOTcwODUsCiAgICAgICAgICAgICAgICAgICJsbmciIDogMjEuMDA2ODExNTE5NzA4NQogICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgfSwKICAgICAgICAgInBsYWNlX2lkIiA6ICJDaElKcVFUQnFXWE1Ia2NSdmpVUkIwQ0UzbTQiLAogICAgICAgICAicGx1c19jb2RlIiA6IHsKICAgICAgICAgICAgImNvbXBvdW5kX2NvZGUiIDogIjYyVzUrUTcgV2Fyc2F3LCBQb2xhbmQiLAogICAgICAgICAgICAiZ2xvYmFsX2NvZGUiIDogIjlHNDM2Mlc1K1E3IgogICAgICAgICB9LAogICAgICAgICAidHlwZXMiIDogWyAic3RyZWV0X2FkZHJlc3MiIF0KICAgICAgfQogICBdLAogICAic3RhdHVzIiA6ICJPSyIKfQo=
     http_version: 
-  recorded_at: Tue, 24 Jul 2018 09:30:43 GMT
+  recorded_at: Wed, 22 Aug 2018 08:50:25 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=Twarda%2040&language=en&sensor=false
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=Nowogordzka%2015,%20Warszawa&language=en&sensor=false
     body:
       encoding: US-ASCII
       string: ''
@@ -305,15 +241,15 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Mon, 23 Jul 2018 14:40:19 GMT
+      - Wed, 22 Aug 2018 08:50:07 GMT
       Expires:
-      - Tue, 24 Jul 2018 14:40:19 GMT
+      - Thu, 23 Aug 2018 08:50:07 GMT
       Access-Control-Allow-Origin:
       - "*"
       Server:
       - mafe
       Content-Length:
-      - '559'
+      - '578'
       X-Xss-Protection:
       - 1; mode=block
       X-Frame-Options:
@@ -321,132 +257,16 @@ http_interactions:
       Cache-Control:
       - public, max-age=86400
       Age:
-      - '67824'
-    body:
-      encoding: ASCII-8BIT
-      string: |
-        {
-           "results" : [
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "38/40",
-                       "short_name" : "38/40",
-                       "types" : [ "street_number" ]
-                    },
-                    {
-                       "long_name" : "Twarda",
-                       "short_name" : "Twarda",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Wola",
-                       "short_name" : "Wola",
-                       "types" : [ "political", "sublocality", "sublocality_level_1" ]
-                    },
-                    {
-                       "long_name" : "Warszawa",
-                       "short_name" : "Warszawa",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "Warszawa",
-                       "short_name" : "Warszawa",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "mazowieckie",
-                       "short_name" : "mazowieckie",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "Poland",
-                       "short_name" : "PL",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "00-001",
-                       "short_name" : "00-001",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "Twarda 38/40, 00-001 Warszawa, Poland",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 52.23126200000001,
-                       "lng" : 20.995538
-                    },
-                    "location_type" : "ROOFTOP",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 52.23261098029151,
-                          "lng" : 20.9968869802915
-                       },
-                       "southwest" : {
-                          "lat" : 52.22991301970851,
-                          "lng" : 20.9941890197085
-                       }
-                    }
-                 },
-                 "place_id" : "ChIJndk6TY7MHkcRXwxDR4V1ww4",
-                 "plus_code" : {
-                    "compound_code" : "6XJW+G6 Warsaw, Poland",
-                    "global_code" : "9G426XJW+G6"
-                 },
-                 "types" : [ "street_address" ]
-              }
-           ],
-           "status" : "OK"
-        }
-    http_version: 
-  recorded_at: Tue, 24 Jul 2018 09:30:43 GMT
-- request:
-    method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=Pulawska%205&language=en&sensor=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Tue, 24 Jul 2018 09:20:11 GMT
-      Expires:
-      - Wed, 25 Jul 2018 09:20:11 GMT
-      Access-Control-Allow-Origin:
-      - "*"
-      Server:
-      - mafe
-      Content-Length:
-      - '540'
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Frame-Options:
-      - SAMEORIGIN
-      Cache-Control:
-      - public, max-age=86400
-      Age:
-      - '632'
+      - '18'
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        ewogICAicmVzdWx0cyIgOiBbCiAgICAgIHsKICAgICAgICAgImFkZHJlc3NfY29tcG9uZW50cyIgOiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiNSIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICI1IiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgInN0cmVldF9udW1iZXIiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJQdcWCYXdza2EiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiUHXFgmF3c2thIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgInJvdXRlIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiUGlhc2Vjem5vIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIlBpYXNlY3pubyIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJsb2NhbGl0eSIsICJwb2xpdGljYWwiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJwaWFzZWN6ecWEc2tpIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogInBpYXNlY3p5xYRza2kiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAiYWRtaW5pc3RyYXRpdmVfYXJlYV9sZXZlbF8yIiwgInBvbGl0aWNhbCIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIm1hem93aWVja2llIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIm1hem93aWVja2llIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgImFkbWluaXN0cmF0aXZlX2FyZWFfbGV2ZWxfMSIsICJwb2xpdGljYWwiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJQb2xhbmQiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiUEwiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAiY291bnRyeSIsICJwb2xpdGljYWwiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICIwNS01MDAiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiMDUtNTAwIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgInBvc3RhbF9jb2RlIiBdCiAgICAgICAgICAgIH0KICAgICAgICAgXSwKICAgICAgICAgImZvcm1hdHRlZF9hZGRyZXNzIiA6ICJQdcWCYXdza2EgNSwgMDUtNTAwIFBpYXNlY3pubywgUG9sYW5kIiwKICAgICAgICAgImdlb21ldHJ5IiA6IHsKICAgICAgICAgICAgImJvdW5kcyIgOiB7CiAgICAgICAgICAgICAgICJub3J0aGVhc3QiIDogewogICAgICAgICAgICAgICAgICAibGF0IiA6IDUyLjA3NTk3MzMsCiAgICAgICAgICAgICAgICAgICJsbmciIDogMjEuMDI2NTgwNwogICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAic291dGh3ZXN0IiA6IHsKICAgICAgICAgICAgICAgICAgImxhdCIgOiA1Mi4wNzU3OTg2LAogICAgICAgICAgICAgICAgICAibG5nIiA6IDIxLjAyNjMxNTIKICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9LAogICAgICAgICAgICAibG9jYXRpb24iIDogewogICAgICAgICAgICAgICAibGF0IiA6IDUyLjA3NTg3MTQsCiAgICAgICAgICAgICAgICJsbmciIDogMjEuMDI2NDUxNwogICAgICAgICAgICB9LAogICAgICAgICAgICAibG9jYXRpb25fdHlwZSIgOiAiUk9PRlRPUCIsCiAgICAgICAgICAgICJ2aWV3cG9ydCIgOiB7CiAgICAgICAgICAgICAgICJub3J0aGVhc3QiIDogewogICAgICAgICAgICAgICAgICAibGF0IiA6IDUyLjA3NzIzNDkzMDI5MTUsCiAgICAgICAgICAgICAgICAgICJsbmciIDogMjEuMDI3Nzk2OTMwMjkxNQogICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAic291dGh3ZXN0IiA6IHsKICAgICAgICAgICAgICAgICAgImxhdCIgOiA1Mi4wNzQ1MzY5Njk3MDg1LAogICAgICAgICAgICAgICAgICAibG5nIiA6IDIxLjAyNTA5ODk2OTcwODUKICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgIH0sCiAgICAgICAgICJwbGFjZV9pZCIgOiAiQ2hJSnB4Y0Zqa0F1R1VjUmo2UTU5dFZLNGhRIiwKICAgICAgICAgInR5cGVzIiA6IFsgInByZW1pc2UiIF0KICAgICAgfQogICBdLAogICAic3RhdHVzIiA6ICJPSyIKfQo=
+        ewogICAicmVzdWx0cyIgOiBbCiAgICAgIHsKICAgICAgICAgImFkZHJlc3NfY29tcG9uZW50cyIgOiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiMTUiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiMTUiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAic3RyZWV0X251bWJlciIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIk5vd29ncm9kemthIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIk5vd29ncm9kemthIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgInJvdXRlIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAixZpyw7NkbWllxZtjaWUiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAixZpyw7NkbWllxZtjaWUiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAicG9saXRpY2FsIiwgInN1YmxvY2FsaXR5IiwgInN1YmxvY2FsaXR5X2xldmVsXzEiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJXYXJzemF3YSIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJXYXJzemF3YSIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJsb2NhbGl0eSIsICJwb2xpdGljYWwiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJXYXJzemF3YSIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJXYXJzemF3YSIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJhZG1pbmlzdHJhdGl2ZV9hcmVhX2xldmVsXzIiLCAicG9saXRpY2FsIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAibWF6b3dpZWNraWUiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAibWF6b3dpZWNraWUiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAiYWRtaW5pc3RyYXRpdmVfYXJlYV9sZXZlbF8xIiwgInBvbGl0aWNhbCIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIlBvbGFuZCIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJQTCIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJjb3VudHJ5IiwgInBvbGl0aWNhbCIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIjAwLTAwMSIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICIwMC0wMDEiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAicG9zdGFsX2NvZGUiIF0KICAgICAgICAgICAgfQogICAgICAgICBdLAogICAgICAgICAiZm9ybWF0dGVkX2FkZHJlc3MiIDogIk5vd29ncm9kemthIDE1LCAwMC0wMDEgV2Fyc3phd2EsIFBvbGFuZCIsCiAgICAgICAgICJnZW9tZXRyeSIgOiB7CiAgICAgICAgICAgICJsb2NhdGlvbiIgOiB7CiAgICAgICAgICAgICAgICJsYXQiIDogNTIuMjI5NDcxOSwKICAgICAgICAgICAgICAgImxuZyIgOiAyMS4wMTY1NDYKICAgICAgICAgICAgfSwKICAgICAgICAgICAgImxvY2F0aW9uX3R5cGUiIDogIlJPT0ZUT1AiLAogICAgICAgICAgICAidmlld3BvcnQiIDogewogICAgICAgICAgICAgICAibm9ydGhlYXN0IiA6IHsKICAgICAgICAgICAgICAgICAgImxhdCIgOiA1Mi4yMzA4MjA4ODAyOTE1LAogICAgICAgICAgICAgICAgICAibG5nIiA6IDIxLjAxNzg5NDk4MDI5MTUKICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgInNvdXRod2VzdCIgOiB7CiAgICAgICAgICAgICAgICAgICJsYXQiIDogNTIuMjI4MTIyOTE5NzA4NSwKICAgICAgICAgICAgICAgICAgImxuZyIgOiAyMS4wMTUxOTcwMTk3MDg1CiAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICB9LAogICAgICAgICAicGxhY2VfaWQiIDogIkNoSUpOVG5BWVBITUhrY1JtSVI5VFRGWlF6NCIsCiAgICAgICAgICJwbHVzX2NvZGUiIDogewogICAgICAgICAgICAiY29tcG91bmRfY29kZSIgOiAiNjJIOCtRSiBXYXJzYXcsIFBvbGFuZCIsCiAgICAgICAgICAgICJnbG9iYWxfY29kZSIgOiAiOUc0MzYySDgrUUoiCiAgICAgICAgIH0sCiAgICAgICAgICJ0eXBlcyIgOiBbICJzdHJlZXRfYWRkcmVzcyIgXQogICAgICB9CiAgIF0sCiAgICJzdGF0dXMiIDogIk9LIgp9Cg==
     http_version: 
-  recorded_at: Tue, 24 Jul 2018 09:30:43 GMT
+  recorded_at: Wed, 22 Aug 2018 08:50:25 GMT
 - request:
     method: get
-    uri: http://maps.googleapis.com/maps/api/geocode/json?address=Lazurowa%2040&language=en&sensor=false
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=Miodowa%2016,%20Warszawa&language=en&sensor=false
     body:
       encoding: US-ASCII
       string: ''
@@ -465,15 +285,15 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Tue, 24 Jul 2018 09:20:12 GMT
+      - Wed, 22 Aug 2018 08:50:07 GMT
       Expires:
-      - Wed, 25 Jul 2018 09:20:12 GMT
+      - Thu, 23 Aug 2018 08:50:07 GMT
       Access-Control-Allow-Origin:
       - "*"
       Server:
       - mafe
       Content-Length:
-      - '516'
+      - '576'
       X-Xss-Protection:
       - 1; mode=block
       X-Frame-Options:
@@ -481,79 +301,55 @@ http_interactions:
       Cache-Control:
       - public, max-age=86400
       Age:
-      - '631'
+      - '18'
     body:
       encoding: ASCII-8BIT
-      string: |
-        {
-           "results" : [
-              {
-                 "address_components" : [
-                    {
-                       "long_name" : "40",
-                       "short_name" : "40",
-                       "types" : [ "street_number" ]
-                    },
-                    {
-                       "long_name" : "Lazurowa",
-                       "short_name" : "Lazurowa",
-                       "types" : [ "route" ]
-                    },
-                    {
-                       "long_name" : "Bemowo",
-                       "short_name" : "Bemowo",
-                       "types" : [ "political", "sublocality", "sublocality_level_1" ]
-                    },
-                    {
-                       "long_name" : "Warszawa",
-                       "short_name" : "Warszawa",
-                       "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "Warszawa",
-                       "short_name" : "Warszawa",
-                       "types" : [ "administrative_area_level_2", "political" ]
-                    },
-                    {
-                       "long_name" : "mazowieckie",
-                       "short_name" : "mazowieckie",
-                       "types" : [ "administrative_area_level_1", "political" ]
-                    },
-                    {
-                       "long_name" : "Poland",
-                       "short_name" : "PL",
-                       "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "01-315",
-                       "short_name" : "01-315",
-                       "types" : [ "postal_code" ]
-                    }
-                 ],
-                 "formatted_address" : "Lazurowa 40, 01-315 Warszawa, Poland",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 52.2389167,
-                       "lng" : 20.8977101
-                    },
-                    "location_type" : "ROOFTOP",
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 52.2402656802915,
-                          "lng" : 20.8990590802915
-                       },
-                       "southwest" : {
-                          "lat" : 52.2375677197085,
-                          "lng" : 20.8963611197085
-                       }
-                    }
-                 },
-                 "place_id" : "ChIJw7i_BufKHkcRopWcPnyZSBA",
-                 "types" : [ "premise" ]
-              }
-           ],
-           "status" : "OK"
-        }
+      string: !binary |-
+        ewogICAicmVzdWx0cyIgOiBbCiAgICAgIHsKICAgICAgICAgImFkZHJlc3NfY29tcG9uZW50cyIgOiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiMTYiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiMTYiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAic3RyZWV0X251bWJlciIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIk1pb2Rvd2EiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiTWlvZG93YSIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJyb3V0ZSIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIsWacsOzZG1pZcWbY2llIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIsWacsOzZG1pZcWbY2llIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgInBvbGl0aWNhbCIsICJzdWJsb2NhbGl0eSIsICJzdWJsb2NhbGl0eV9sZXZlbF8xIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiV2Fyc3phd2EiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiV2Fyc3phd2EiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAibG9jYWxpdHkiLCAicG9saXRpY2FsIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiV2Fyc3phd2EiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiV2Fyc3phd2EiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAiYWRtaW5pc3RyYXRpdmVfYXJlYV9sZXZlbF8yIiwgInBvbGl0aWNhbCIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIm1hem93aWVja2llIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIm1hem93aWVja2llIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgImFkbWluaXN0cmF0aXZlX2FyZWFfbGV2ZWxfMSIsICJwb2xpdGljYWwiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJQb2xhbmQiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiUEwiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAiY291bnRyeSIsICJwb2xpdGljYWwiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICIwMC0wMDEiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiMDAtMDAxIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgInBvc3RhbF9jb2RlIiBdCiAgICAgICAgICAgIH0KICAgICAgICAgXSwKICAgICAgICAgImZvcm1hdHRlZF9hZGRyZXNzIiA6ICJNaW9kb3dhIDE2LCAwMC0wMDEgV2Fyc3phd2EsIFBvbGFuZCIsCiAgICAgICAgICJnZW9tZXRyeSIgOiB7CiAgICAgICAgICAgICJsb2NhdGlvbiIgOiB7CiAgICAgICAgICAgICAgICJsYXQiIDogNTIuMjQ3NzAxMTAwMDAwMDEsCiAgICAgICAgICAgICAgICJsbmciIDogMjEuMDA4NzMwMgogICAgICAgICAgICB9LAogICAgICAgICAgICAibG9jYXRpb25fdHlwZSIgOiAiUk9PRlRPUCIsCiAgICAgICAgICAgICJ2aWV3cG9ydCIgOiB7CiAgICAgICAgICAgICAgICJub3J0aGVhc3QiIDogewogICAgICAgICAgICAgICAgICAibGF0IiA6IDUyLjI0OTA1MDA4MDI5MTUxLAogICAgICAgICAgICAgICAgICAibG5nIiA6IDIxLjAxMDA3OTE4MDI5MTUKICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgInNvdXRod2VzdCIgOiB7CiAgICAgICAgICAgICAgICAgICJsYXQiIDogNTIuMjQ2MzUyMTE5NzA4NTEsCiAgICAgICAgICAgICAgICAgICJsbmciIDogMjEuMDA3MzgxMjE5NzA4NQogICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgfSwKICAgICAgICAgInBsYWNlX2lkIiA6ICJDaElKOTNmRmRHWE1Ia2NSSEs0eEg5WjhETGsiLAogICAgICAgICAicGx1c19jb2RlIiA6IHsKICAgICAgICAgICAgImNvbXBvdW5kX2NvZGUiIDogIjYyWDUrM0YgV2Fyc2F3LCBQb2xhbmQiLAogICAgICAgICAgICAiZ2xvYmFsX2NvZGUiIDogIjlHNDM2Mlg1KzNGIgogICAgICAgICB9LAogICAgICAgICAidHlwZXMiIDogWyAic3RyZWV0X2FkZHJlc3MiIF0KICAgICAgfQogICBdLAogICAic3RhdHVzIiA6ICJPSyIKfQo=
     http_version: 
-  recorded_at: Tue, 24 Jul 2018 09:30:43 GMT
+  recorded_at: Wed, 22 Aug 2018 08:50:25 GMT
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=Nowogordzka%2016,%20Warszawa&language=en&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 22 Aug 2018 08:50:08 GMT
+      Expires:
+      - Thu, 23 Aug 2018 08:50:08 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - mafe
+      Content-Length:
+      - '571'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cache-Control:
+      - public, max-age=86400
+      Age:
+      - '17'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        ewogICAicmVzdWx0cyIgOiBbCiAgICAgIHsKICAgICAgICAgImFkZHJlc3NfY29tcG9uZW50cyIgOiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAiMTYiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiMTYiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAic3RyZWV0X251bWJlciIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIk5vd29ncm9kemthIiwKICAgICAgICAgICAgICAgInNob3J0X25hbWUiIDogIk5vd29ncm9kemthIiwKICAgICAgICAgICAgICAgInR5cGVzIiA6IFsgInJvdXRlIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAixZpyw7NkbWllxZtjaWUiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAixZpyw7NkbWllxZtjaWUiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAicG9saXRpY2FsIiwgInN1YmxvY2FsaXR5IiwgInN1YmxvY2FsaXR5X2xldmVsXzEiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJXYXJzemF3YSIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJXYXJzemF3YSIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJsb2NhbGl0eSIsICJwb2xpdGljYWwiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJXYXJzemF3YSIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJXYXJzemF3YSIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJhZG1pbmlzdHJhdGl2ZV9hcmVhX2xldmVsXzIiLCAicG9saXRpY2FsIiBdCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgImxvbmdfbmFtZSIgOiAibWF6b3dpZWNraWUiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAibWF6b3dpZWNraWUiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAiYWRtaW5pc3RyYXRpdmVfYXJlYV9sZXZlbF8xIiwgInBvbGl0aWNhbCIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIlBvbGFuZCIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJQTCIsCiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJjb3VudHJ5IiwgInBvbGl0aWNhbCIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDogIjAwLTAwMSIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICIwMC0wMDEiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAicG9zdGFsX2NvZGUiIF0KICAgICAgICAgICAgfQogICAgICAgICBdLAogICAgICAgICAiZm9ybWF0dGVkX2FkZHJlc3MiIDogIk5vd29ncm9kemthIDE2LCAwMC0wMDEgV2Fyc3phd2EsIFBvbGFuZCIsCiAgICAgICAgICJnZW9tZXRyeSIgOiB7CiAgICAgICAgICAgICJsb2NhdGlvbiIgOiB7CiAgICAgICAgICAgICAgICJsYXQiIDogNTIuMjI5NTc5LAogICAgICAgICAgICAgICAibG5nIiA6IDIxLjAxNTM2NgogICAgICAgICAgICB9LAogICAgICAgICAgICAibG9jYXRpb25fdHlwZSIgOiAiUk9PRlRPUCIsCiAgICAgICAgICAgICJ2aWV3cG9ydCIgOiB7CiAgICAgICAgICAgICAgICJub3J0aGVhc3QiIDogewogICAgICAgICAgICAgICAgICAibGF0IiA6IDUyLjIzMDkyNzk4MDI5MTUsCiAgICAgICAgICAgICAgICAgICJsbmciIDogMjEuMDE2NzE0OTgwMjkxNQogICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAic291dGh3ZXN0IiA6IHsKICAgICAgICAgICAgICAgICAgImxhdCIgOiA1Mi4yMjgyMzAwMTk3MDg1LAogICAgICAgICAgICAgICAgICAibG5nIiA6IDIxLjAxNDAxNzAxOTcwODUKICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgIH0sCiAgICAgICAgICJwbGFjZV9pZCIgOiAiQ2hJSnUwTmQzUFBNSGtjUlZxaXB5bFBoTmVzIiwKICAgICAgICAgInBsdXNfY29kZSIgOiB7CiAgICAgICAgICAgICJjb21wb3VuZF9jb2RlIiA6ICI2Mkg4K1I0IFdhcnNhdywgUG9sYW5kIiwKICAgICAgICAgICAgImdsb2JhbF9jb2RlIiA6ICI5RzQzNjJIOCtSNCIKICAgICAgICAgfSwKICAgICAgICAgInR5cGVzIiA6IFsgInN0cmVldF9hZGRyZXNzIiBdCiAgICAgIH0KICAgXSwKICAgInN0YXR1cyIgOiAiT0siCn0K
+    http_version: 
+  recorded_at: Wed, 22 Aug 2018 08:50:25 GMT
 recorded_with: VCR 4.0.0
