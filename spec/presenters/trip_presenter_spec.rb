@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-RSpec.describe TripStats do
-  context '#monthly_stats', vcr: 'address_cords' do
+RSpec.describe TripPresenter do
+  context '#monthly_stats_serialized', vcr: 'address_cords' do
     before do
       Trip.skip_callback(:validation, :after, :set_date, raise: false)
     end
@@ -18,29 +18,25 @@ RSpec.describe TripStats do
       create(:trip, date: Date.current.beginning_of_month, price: 20)
     end
 
-    let!(:ereyesterday_day_of_current_moth) do
-      create(:trip, date: Date.current.end_of_month.yesterday)
-    end
-
     let!(:last_day_of_current_moth) do
-      create(:trip, date: Date.current.end_of_month, destination_address: 'Nowogordzka 50, Warszawa')
+      create(:trip, date: Date.current.end_of_month)
     end
 
-    it 'return correctly sorted data' do
-      monthly_stats = TripStats.monthly_stats('total_distance', 'desc')
+    it 'return correct data' do
+      monthly_stats = TripPresenter.monthly_stats_serialized(nil, nil)
 
-      expect(monthly_stats.size).to eq(3)
+      expect(monthly_stats.size).to eq(2)
 
-      expect(monthly_stats.first[:day]).to eq(Date.current.beginning_of_month)
-      expect(monthly_stats.first[:total_distance].to_f).to eq(3.62)
-      expect(monthly_stats.first[:avg_ride].to_f).to eq(1.81)
-      expect(monthly_stats.first[:avg_price].to_f).to eq(15)
+      expect(monthly_stats.first[:day]).to eq(Date.current.beginning_of_month.strftime("%B, #{Date.current.beginning_of_month.day.ordinalize}"))
+      expect(monthly_stats.first[:total_distance]).to eq('3.62km')
+      expect(monthly_stats.first[:avg_ride]).to eq('1.81km')
+      expect(monthly_stats.first[:avg_price]).to eq('15PLN')
 
-      expect(monthly_stats.last[:day]).to eq(Date.current.end_of_month.yesterday)
+      expect(monthly_stats.last[:day]).to eq(Date.current.end_of_month.strftime("%B, #{Date.current.end_of_month.day.ordinalize}"))
     end
   end
 
-  context '#weekly_stats', vcr: 'address_cords' do
+  context '#weekly_stats_serialized', vcr: 'address_cords' do
     before do
       Trip.skip_callback(:validation, :after, :set_date, raise: false)
     end
@@ -62,10 +58,10 @@ RSpec.describe TripStats do
     end
 
     it 'return correct data' do
-      weekly_stats = TripStats.weekly_stats
+      weekly_stats = TripPresenter.weekly_stats_serialized
 
-      expect(weekly_stats[:total_distance].to_f).to eq(5.43)
-      expect(weekly_stats[:total_price].to_f).to eq(40)
+      expect(weekly_stats[:total_distance]).to eq('5.43km')
+      expect(weekly_stats[:total_price]).to eq('40PLN')
     end
   end
 end
