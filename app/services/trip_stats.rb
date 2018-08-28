@@ -4,18 +4,22 @@ module TripStats
   def weekly_stats
     weekly_trips = Trip.weekly
     {
-      total_distance: "#{serialize_number(weekly_trips.sum(&:distance))}km",
-      total_price: "#{serialize_number(weekly_trips.sum(&:price))}PLN"
+      total_distance: weekly_trips.sum(&:distance),
+      total_price: weekly_trips.sum(&:price)
     }
   end
 
-  def monthly_stats
-    Trip.monthly.group_by(&:date).map do |result|
-      { day: result[0].strftime("%B, #{result[0].day.ordinalize}"),
-        total_distance: "#{serialize_number(result[1].sum(&:distance))}km",
-        avg_ride: "#{serialize_number(average_distance(result))}km",
-        avg_price: "#{serialize_number(average_price(result))}PLN" }
+  def monthly_stats(orderParam, orderType)
+    orderParam.nil? || orderParam == '' ? orderParam = 'day' : ''
+    orderType.nil? ? orderType = 'asc' : ''
+
+    monthly_hash = Trip.monthly.group_by(&:date).map do |result|
+      { day: result[0],
+        total_distance: result[1].sum(&:distance),
+        avg_ride: average_distance(result),
+        avg_price: average_price(result) }
     end
+    orderType == 'asc' ? monthly_hash.sort_by { |result| result[orderParam.to_sym] } : monthly_hash.sort_by { |result| result[orderParam.to_sym] }.reverse
   end
 
   def average_distance(trip)
@@ -24,9 +28,5 @@ module TripStats
 
   def average_price(trip)
     trip[1].sum(&:price) / trip[1].size
-  end
-
-  def serialize_number(number)
-    number_with_precision(number, precision: 2, strip_insignificant_zeros: true)
   end
 end
