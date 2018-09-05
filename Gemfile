@@ -39,6 +39,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'geocoder'
 gem 'rack-cors', require: 'rack/cors'
 gem 'dotenv-rails'
+gem 'reek'
 
 
 group :development, :test do
