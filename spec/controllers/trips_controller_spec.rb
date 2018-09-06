@@ -19,7 +19,7 @@ RSpec.describe TripsController, type: :controller do
 
   context '#monthly' do
     it 'returns json when provided params are incorrect' do
-      params = { orderParam: 'day', orderType: 'asfas' }
+      params = { orderParam: 'day', orderType: 'incorrect_param' }
 
       get :monthly, params: params
 
