@@ -16,14 +16,16 @@ class TripsController < ApplicationController
   end
 
   def weekly
-    render json: TripStats.weekly_stats.to_json
+    stats = TripStats.new.weekly_stats
+    render json: TripPresenter.weekly_stats_serialized(stats).to_json
   end
 
   def monthly
     if order_param_correct? && order_type_correct?
       orderParam = sort_params[:orderParam]
       orderType = sort_params[:orderType]
-      render json: TripPresenter.monthly_stats_serialized(orderParam, orderType).to_json
+      stats = TripStats.new.monthly_stats(orderParam, orderType)
+      render json: TripPresenter.monthly_stats_serialized(stats).to_json
     else
       render json: 'Invalid params', status: :unprocessable_entity
     end

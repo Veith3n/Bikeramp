@@ -1,16 +1,14 @@
 module TripPresenter
   module_function
 
-  def weekly_stats_serialized
-    weekly_trips = TripStats.weekly_stats
+  def weekly_stats_serialized(weekly_hash)
     {
-      total_distance: "#{serialize_number(weekly_trips[:total_distance])}km",
-      total_price: "#{serialize_number(weekly_trips[:total_price])}PLN"
+      total_distance: "#{serialize_number(weekly_hash[:total_distance])}km",
+      total_price: "#{serialize_number(weekly_hash[:total_price])}PLN"
     }
   end
 
-  def monthly_stats_serialized(orderParam, orderType)
-    monthly_hash = TripStats.monthly_stats(orderParam, orderType)
+  def monthly_stats_serialized(monthly_hash)
     monthly_hash.map do |result|
       { day: result[:day].strftime("%B, #{result[:day].day.ordinalize}"),
         total_distance: "#{serialize_number(result[:total_distance])}km",
