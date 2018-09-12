@@ -24,6 +24,7 @@ RSpec.describe TripsController, type: :controller do
       get :monthly, params: params
 
       expect(response).to have_http_status(422)
+      expect(response.message).to eq('Unprocessable Entity')
     end
   end
 
