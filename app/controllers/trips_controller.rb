@@ -6,12 +6,12 @@ class TripsController < ApplicationController
   end
 
   def create
-    @trip = Trip.new(trip_params)
+    trip = Trip.new(trip_params)
 
-    if @trip.save
-      render json: @trip, status: :created
+    if trip.save
+      render json: trip, status: :created
     else
-      render json: @trip.errors, status: :unprocessable_entity
+      render json: trip.errors, status: :unprocessable_entity
     end
   end
 
