@@ -6,6 +6,10 @@ class Trip < ApplicationRecord
   scope :weekly, -> { where(date: Date.current.beginning_of_week..Date.current.end_of_week).order(:date) }
   scope :monthly, -> { where(date: Date.current.beginning_of_month..Date.current.end_of_month).order(:date) }
 
+  def self.monthly_grouped_by_date
+    monthly.group_by(&:date)
+  end
+
   def start_cords
     Geocoder.coordinates(start_address)
   end

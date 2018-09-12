@@ -16,4 +16,21 @@ RSpec.describe TripsController, type: :controller do
       expect { post :create, params: { trip: params } }.to_not change { Trip.count }
     end
   end
+
+  context '#monthly' do
+    it 'returns json when provided params are incorrect' do
+      params = { orderParam: 'day', orderType: 'incorrect_param' }
+
+      get :monthly, params: params
+
+      expect(response).to have_http_status(422)
+      expect(response.message).to eq('Unprocessable Entity')
+    end
+  end
+
+  it 'return correct json when provided no params are provided' do
+    get :monthly
+
+    expect(response).to have_http_status(200)
+  end
 end

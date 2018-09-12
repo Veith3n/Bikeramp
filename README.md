@@ -9,6 +9,7 @@ Then create database and seed it with random data:
 Now you can start server with:
 > rails s
 
-App include two endpoints
+API includes two endpoints
 >http://example.com/api/stats/weekly <br>
->http://example.com/api/stats/monthly
+>http://example.com/api/stats/monthly ( monthly accepts two params: orderParam and orderType )
+

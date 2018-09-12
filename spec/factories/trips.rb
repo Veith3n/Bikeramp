@@ -1,8 +1,8 @@
 FactoryBot.define do
   factory :trip do
-    sequence(:start_address) { |n| "Miodowa #{n}, Warszawa" }
-    sequence(:destination_address) { |n| "Nowogordzka #{n}, Warszawa" }
-    date Date.current
-    price 10
+    start_address { 'Miodowa 1, Warszawa' }
+    destination_address { 'Nowogordzka 1, Warszawa' }
+    date { Date.current }
+    price { 10 }
   end
 end
