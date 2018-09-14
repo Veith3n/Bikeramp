@@ -13,7 +13,7 @@ module Bikeramp
 
     config.middleware.insert_before 0, Rack::Cors do
       allow do
-        origins ENV.fetch('FRONTEND_SERVER_ADDRESS')
+        origins 'https://bikeramp-frontend.herokuapp.com/'
         resource '*', headers: :any, methods: [:get, :post, :create, :options]
       end
     end
