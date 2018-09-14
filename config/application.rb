@@ -13,8 +13,8 @@ module Bikeramp
 
     config.middleware.insert_before 0, Rack::Cors do
       allow do
-        origins 'https://bikeramp-frontend.herokuapp.com/'
-        resource '*', headers: :any, methods: [:get, :post, :create, :options]
+        origins %w[https://bikeramp-frontend.herokuapp.com/ http://localhost:3000]
+        resource '*', headers: :any, methods: :any
       end
     end
   end
