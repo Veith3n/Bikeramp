@@ -13,8 +13,8 @@ module Bikeramp
 
     config.middleware.insert_before 0, Rack::Cors do
       allow do
-        origins '*'
-        resource '*', headers: :any, methods: :any
+        origins ENV.fetch('FRONTEND_SERVER_ADDRESS')
+        resource '*', headers: :any, methods: [:get, :post, :create, :options]
       end
     end
   end
